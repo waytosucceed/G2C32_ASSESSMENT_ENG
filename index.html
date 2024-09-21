@@ -12,6 +12,10 @@
 
   <link rel="stylesheet" href="styles.css">
   <style>
+    body {
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
     .moving-div {
       position: absolute;
       /* Use absolute positioning */
@@ -34,13 +38,13 @@
 
     @keyframes move-left-right {
       0% {
-        left: 0;
+        left: -90px;
         /* Start from the left */
       }
 
       100% {
-        left: calc(100% - 200px);
-        /* Move to the right (adjust based on the GIF's width) */
+        left: calc(100% );
+                /* Move to the right (adjust based on the GIF's width) */
       }
     }
 
@@ -230,7 +234,7 @@
 
       </div>
       <div class="moving-div">
-        <img src="./assests/boy moving (1).gif" alt="Moving Boy" style="width: 200px;">
+        <img src="./assests/boy_fwd.gif" alt="Moving Boy" style="width: 200px;">
 
 
       </div>

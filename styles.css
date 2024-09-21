@@ -1,7 +1,7 @@
 /* General Styles */
 body {
-  font-family: 'Comic Neue', Arial, sans-serif;
-  background-color: #F5F5F5;
+  font-family: "Comic Neue", Arial, sans-serif;
+  background-color: #f5f5f5;
   /* Light gray for background */
   color: #333;
   margin: 0;
@@ -10,7 +10,6 @@ body {
   /* Increased base font size */
   font-weight: 600;
   /* Make general text bolder */
-
 }
 
 .header {
@@ -61,7 +60,7 @@ body {
 
 .numdiv {
   font-size: 2.5rem;
-  color: #7A9A5B;
+  color: #7a9a5b;
   font-family: Georgia, serif;
 }
 
@@ -89,7 +88,6 @@ body {
 }
 
 .menu li {
-
   /* margin-bottom: 20px;  */
   /* font-size: 1.5rem;  */
   /* color: #D7A2A0; */
@@ -101,7 +99,6 @@ body {
 .btnOption {
   width: 100%;
   padding: 1.2rem 0;
-
 }
 
 .option-container {
@@ -114,24 +111,23 @@ body {
   /* margin: 15px;  */
   font-size: 2rem;
   /* Larger font size for buttons */
-  background-color: #FF8343;
-  border-color: #D5A35F;
+  background-color: #ff8343;
+  border-color: #d5a35f;
   /* Matching border color for buttons */
   color: white;
   font-weight: 700;
 }
 
 .btn:hover {
-  background-color: #0D1282;
+  background-color: #0d1282;
   /* Dark Pastel Red for button hover effect */
-  border-color: #BF6C6C;
+  border-color: #bf6c6c;
   /* Matching border color on hover */
   color: white !important;
 }
 
 .smallbtn:hover {
   color: black !important;
-
 }
 
 #result {
@@ -139,7 +135,7 @@ body {
   /* Increased spacing */
   font-size: 1.8rem;
   /* Larger font size for results */
-  color: #6D8E8F;
+  color: #6d8e8f;
   /* Dark Pastel Teal for result text */
 }
 
@@ -148,8 +144,6 @@ body {
   /* Increased height for progress bar */
   margin: 20px;
   /* Increased spacing */
-
-
 }
 
 .progress-bar {
@@ -170,8 +164,6 @@ body {
   /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
   font-size: 1.8rem;
   /* Larger font size for results and feedback */
-
-
 }
 
 #question_background {
@@ -183,8 +175,8 @@ body {
   /* Increased spacing */
   font-size: 1.5rem;
   /* Larger font size for small buttons */
-  background-color: #FFDE4D;
-  border-color: #6D8E8F;
+  background-color: #ffde4d;
+  border-color: #6d8e8f;
   /* Matching border color for small buttons */
   color: black;
 }
@@ -192,7 +184,7 @@ body {
 .smallbtn:hover {
   background-color: white;
   border-color: black;
-  color: black
+  color: black;
 }
 
 .highlighted-btn {
@@ -205,16 +197,15 @@ body {
 
 /* CSS for Answered Button */
 .answered-btn {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   /* Green background for answered button */
   color: white;
   /* White text color */
 }
 
-
 .next-btn-progress {
   font-size: x-large;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   border-color: black;
   /* Matching border color for buttons */
   color: white;
@@ -230,23 +221,20 @@ input[type="radio"] {
 }
 
 /* Adjust the label to align with the larger radio button */
-input[type="radio"]+label {
+input[type="radio"] + label {
   font-size: 1.2rem;
   /* Adjust the font size as needed */
 }
 
-
 /* Media query for smaller screens */
 @media (max-width: 1024px) {
-  
-  #question{
+  #question {
     font-size: 2rem;
-    button{
+    button {
       width: 100%;
       font-size: 1.5rem;
     }
   }
- 
 }
 /* Media query for smaller screens */
 @media (max-width: 768px) {
@@ -258,28 +246,25 @@ input[type="radio"]+label {
     max-width: 500px;
     /* Adjust max-width for smaller screens */
     color: black;
-
   }
 
   #question_background {
     display: none;
     /* background-image: url("./assests/images/aa.png"); */
-
-
   }
 
   #picdiv {
-    background-color: #B7A0D0;
+    background-color: #b7a0d0;
   }
-
+/* 
   .moving-div {
     display: none !important;
   }
 
   .grass {
     display: none;
-  }
-  #question{
+  } */
+  #question {
     font-size: 2rem !important;
   }
 }
@@ -295,21 +280,21 @@ input[type="radio"]+label {
     /* Adjust max-width for very small screens */
     color: black;
   }
-#questiondiv{
-  padding: 1rem !important;
-  img{
-    width: 100px;
+  #questiondiv {
+    padding: 1rem !important;
+    img {
+      width: 100px;
+    }
   }
-}
-#picdiv{
-  font-size: 1.3rem !important;
-}
+  #picdiv {
+    font-size: 1.3rem !important;
+  }
   #question_background {
     display: none;
   }
 
   #picdiv {
-    background-color: #B7A0D0 ;
+    background-color: #b7a0d0;
   }
 
   .moving-div {
@@ -319,21 +304,21 @@ input[type="radio"]+label {
   .grass {
     display: none !important;
   }
-  .btn-large{
+  .btn-large {
     font-size: 14px !important;
   }
-  #question{
+  #question {
     font-size: 1rem !important;
-    img{
+    img {
       width: 50px !important;
     }
-    button{
+    button {
       width: 100% !important;
       font-size: 0.9rem !important;
     }
   }
-  .option-container{
-    img{
+  .option-container {
+    img {
       height: 70px !important;
     }
   }

@@ -15,13 +15,13 @@ body {
 .header {
   /* width: 100%; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  padding: 10px 30px;
+  padding: 2px 30px;
   background-color: white;
   text-align: left;
 }
 
 .container {
-  width: 70%;
+  width: 75%;
 }
 
 .img {
@@ -34,7 +34,7 @@ body {
 }
 
 .header-image {
-  width: 30%;
+  width: 25%;
   /* Slightly larger header image */
   height: auto;
   margin-bottom: 6px;

@@ -67,6 +67,14 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     }
 }
+#story-here{
+  p{
+    margin: 0 !important;
+    
+  }
+
+}
+
 
 </style>
 <body>
@@ -84,6 +92,9 @@
   <main class="container">
     <h1 id="heading" class="text-center"></h1>
     <div id="buttonContainer" class="text-center"></div>
+    <!-- <div id="story-here" ></div> -->
+    <button id="readButton" class="btn btn-info text-center" style="display: none;margin: auto;background-color: #00712D;">👉 Click here to read  the story👈</button>
+
     <div class="row maindiv">
       <!-- <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 numdiv">
         <p id="numdiv"></p>
@@ -111,5 +122,26 @@
       
     </div>
   </main>
+  <div id="storyModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" style="font-size: 2rem;"><b>The Friendly Dragon 🐉</b>
+
+          </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p id="modalContent"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

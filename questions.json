@@ -1,1032 +1,1243 @@
 {
-  "heading": "Syllables and Spelling Patterns",
+  "heading": "select a topic",
   "topics": [
     {
-      "heading": "Syllables",
+      "heading": "Sentence, Fragment and Run-on",
       "questions": [
         {
           "questionNo": 1,
-          "question": "How many syllables are in the word \"cat\"  <br><img width='150px' src='./assests/images/question/1.png'>?",
-          "questionSound":"./assests/sounds/qasounds/cat.mp3",
-
+          "question": "Which of these is a complete sentence?",
           "options": [
             {
-              "text": "1"
+              "text": "The big brown dog."
             },
             {
-              "text": "2"
+              "text": "Ran around the park."
             },
             {
-              "text": "3"
+              "text": "The cat chased the mouse."
             },
             {
-              "text": "4"
+              "text": "Under the table."
             }
           ],
-          "answer": 0,
-          "explanation": "\"Cat\" has only one sound beat, so it has 1 syllable."
+          "answer": 2,
+          "explanation": "A complete sentence must have a subject (who or what the sentence is about) and a predicate (what the subject is doing). \"The cat\" is the subject, and \"chased the mouse\" is the predicate. This makes it a complete thought and a proper sentence."
         },
         {
           "questionNo": 2,
-          "question": "Which word has 2 syllables?",
-          "options": [
-            {
-              "text": "Dog",
-              "image":"./assests/images/option/1.jpg",
-              "sound": "./assests/sounds/qasounds/dog.mp3"
-
-            },
-            {
-              "text": "Fish",
-              "image":"./assests/images/option/2.jpg",
-              "sound": "./assests/sounds/qasounds/fish.mp3"
-            },
-            {
-              "text": "Apple",
-              "image":"./assests/images/option/3.jpg",
-              "sound": "./assests/sounds/qasounds/apple.mp3"
-            },
-            {
-              "text": "Cow",
-              "image":"./assests/images/option/4.jpg",
-              "sound": "./assests/sounds/qasounds/cow.mp3"
-            }
-          ],
-          "answer": 2,
-          "explanation": "\"Apple\" has two sound beats: \"ap-ple\", so it has 2 syllables."
-        },
-        {
-          "questionNo": 3,
-          "question": "How many syllables are in \"butterfly\" <br><img width='150px' src='./assests/images/question/3.gif'>?",
-          "questionSound":"./assests/sounds/qasounds/butterfly.mp3",
-
-          "options": [
-            {
-              "text": "1"
-            },
-            {
-              "text": "2"
-            },
-            {
-              "text": "3"
-            },
-            {
-              "text": "4"
-            }
-          ],
-          "answer": 2,
-          "explanation": "\"Butterfly\" has three sound beats: \"but-ter-fly\", so it has 3 syllables."
-        },
-        {
-          "questionNo": 4,
-          "question": "Which word has the most syllables?",
-          "options": [
-            {
-              "text": "Sun",
-              "image":"./assests/images/option/5.jpg",
-              "sound": "./assests/sounds/qasounds/sun.mp3"
-
-            },
-            {
-              "text": "Moon",
-              "image":"./assests/images/option/6.jpg",
-              "sound": "./assests/sounds/qasounds/moon.mp3"
-
-            },
-            {
-              "text": "Star",
-              "image":"./assests/images/option/7.jpg",
-              "sound": "./assests/sounds/qasounds/star.mp3"
-
-            },
-            {
-              "text": "Rocket",
-              "image":"./assests/images/option/8.jpg",
-              "sound": "./assests/sounds/qasounds/rocket.mp3"
-
-            }
-          ],
-          "answer": 3,
-          "explanation": "\"Rocket\" has two syllables (rock-et), while the others have only one."
-        },
-        {
-          "questionNo": 5,
-          "question": "Which word has the least syllables?",
-          "options": [
-            {
-              "text": "Dinosaur",
-              "image":"./assests/images/option/9.jpg",
-              "sound": "./assests/sounds/qasounds/dinosaur.mp3"
-
-            },
-            {
-              "text": "Elephant",
-              "image":"./assests/images/option/10.jpg",
-              "sound": "./assests/sounds/qasounds/elephant.mp3"
-
-            },
-            {
-              "text": "Tiger",
-              "image":"./assests/images/option/11.jpg",
-              "sound": "./assests/sounds/qasounds/tiger.mp3"
-
-            }
-          ],
-          "answer": 2,
-          "explanation": "\"Tiger\" has two syllables (ti-ger), which is fewer than the others. Other words in the options have 3 syllables."
-        }
-      ]
-    },
-    {
-      "heading": "Words with f, ff and ph",
-      "questions": [
-        {
-          "questionNo": 6,
-          "question": "Which word is spelled correctly?  <br><img width='150px' src='./assests/images/question/6.png'>",
-          "options": [
-            {
-              "text": "Elefant"
-            },
-            {
-              "text": "Elephant"
-            },
-            {
-              "text": "Elephent"
-            },
-            {
-              "text": "Elefent"
-            }
-          ],
-          "answer": 1,
-          "explanation": "The correct spelling is E-L-E-P-H-A-N-T. \"Elephant\" is spelled with \"ph\" to make the \"f\" sound."
-        },
-        {
-          "questionNo": 7,
-          "question": "Which is the correct spelling? <br><img width='150px' src='./assests/images/question/7.png'>",
-          "options": [
-            {
-              "text": "Phish"
-            },
-            {
-              "text": "Fish"
-            },
-            {
-              "text": "Ffish"
-            },
-            {
-              "text": "Fissh"
-            }
-          ],
-          "answer": 1,
-          "explanation": "The correct spelling is F-I-S-H. \"Fish\" is spelled with a single \"f\" at the beginning."
-        },
-        {
-          "questionNo": 8,
-          "question": "Hear the word and choose the correct spelling:",
-          "questionSound":"./assests/sounds/qasounds/stuff.mp3",
-
-          "options": [
-            {
-              "text": "Stuf"
-            },
-            {
-              "text": "Stuph"
-            },
-            {
-              "text": "Stuff"
-            },
-            {
-              "text": "Steff"
-            }
-          ],
-          "answer": 2,
-          "explanation": "The correct spelling is S-T-U-F-F. \"Stuff\" is spelled with a double \"ff\" at the end."
-        },
-        {
-          "questionNo": 9,
-          "question": "Hear the word and choose the correct spelling: <br><img width='150px' src='./assests/images/question/9.png'>",
-          "questionSound":"./assests/sounds/qasounds/photo.mp3",
-
-          "options": [
-            {
-              "text": "Foto"
-            },
-            {
-              "text": "Phota"
-            },
-            {
-              "text": "Phote"
-            },
-            {
-              "text": "Photo"
-            }
-          ],
-          "answer": 3,
-          "explanation": "The correct spelling is P-H-O-T-O. \"Photo\" is spelled with \"ph\" to make the \"f\" sound."
-        },
-        {
-          "questionNo": 10,
-          "question": "See the image and choose the correct spelling:  <br><img width='150px' src='./assests/images/question/10.png'>",
-          "options": [
-            {
-              "text": "Telephone"
-            },
-            {
-              "text": "Telefone"
-            },
-            {
-              "text": "Telephon"
-            },
-            {
-              "text": "Telefonee"
-            }
-          ],
-          "answer": 0,
-          "explanation": "\"Telephone\" is spelled with \"ph\" to make the \"f\" sound."
-        }
-      ]
-    },
-    {
-      "heading": "L and LL Words",
-      "questions": [
-        {
-          "questionNo": 11,
-          "question": "Which word is spelled correctly?  <br><img width='150px' src='./assests/images/question/11.png'>",
-          "options": [
-            {
-              "text": "Bel"
-            },
-            {
-              "text": "Bell"
-            },
-            {
-              "text": "Bele"
-            },
-            {
-              "text": "Bello"
-            }
-          ],
-          "answer": 1,
-          "explanation": "\"Bell\" is spelled with a double \"ll\" at the end. There is a short \"e\" sound, followed by double \"L\"."
-        },
-        {
-          "questionNo": 12,
-          "question": "Hear the word and count the number of letters “L” in that word: ",
-          "questionSound":"./assests/sounds/qasounds/little.mp3",
-
-          "options": [
-            {
-              "text": "1"
-            },
-            {
-              "text": "2"
-            },
-            {
-              "text": "3"
-            }
-          ],
-          "answer": 1,
-          "explanation": "The correct spelling is L-I-T-T-L-E. The letter “L” appears two times in this word."
-        },
-        {
-          "questionNo": 13,
-          "question": "Hear the word and choose the correct spelling: ",
-          "questionSound":"./assests/sounds/qasounds/pill.mp3",
-
-          "options": [
-            {
-              "text": "Pill"
-            },
-            {
-              "text": "Pil"
-            },
-            {
-              "text": "Pille"
-            },
-            {
-              "text": "Piel"
-            }
-          ],
-          "answer": 0,
-          "explanation": "The correct spelling is P-I-L-L. \"Pill\" is spelled with a double \"ll\" at the end."
-        },
-        {
-          "questionNo": 14,
-          "question": "Which word has a double \"L\" in the middle?",
-          "options": [
-            {
-              "text": "/Yellow/",
-              "image":"./assests/images/option/12.jpg",
-              "sound": "./assests/sounds/qasounds/yellow.mp3"
-
-            },
-            {
-              "text": "/Bird/",
-              "image":"./assests/images/option/13.jpg",
-              "sound": "./assests/sounds/qasounds/bird.mp3"
-
-            },
-            {
-              "text": "/Light/",
-              "image":"./assests/images/option/14.jpg",
-              "sound": "./assests/sounds/qasounds/light.mp3"
-
-            },
-            {
-              "text": "/Kite/",
-              "image":"./assests/images/option/15.jpg",
-              "sound": "./assests/sounds/qasounds/kite.mp3"
-
-            }
-          ],
-          "answer": 0,
-          "explanation": "\"Yellow\" has a double \"L\" in the middle, while the other words do not have a double \"L.\""
-        },
-        {
-          "questionNo": 15,
-          "question": "Which is the correct spelling (something tiny)?",
-          "options": [
-            {
-              "text": "Smal"
-            },
-            {
-              "text": "Smalle"
-            },
-            {
-              "text": "Smol"
-            },
-            {
-              "text": "Small"
-            }
-          ],
-          "answer": 3,
-          "explanation": "The correct spelling is S-M-A-L-L. \"Small\" is spelled with a double \"ll\" at the end."
-        }
-      ]
-    },
-    {
-      "heading": "C, Q, K Sound and Spellings",
-      "questions": [
-        {
-          "questionNo": 16,
-          "question": "Which word is spelled correctly? <br><img width='150px' src='./assests/images/question/1.png'>",
-          "options": [
-            {
-              "text": "Cat"
-            },
-            {
-              "text": "Kat"
-            },
-            {
-              "text": "Qat"
-            },
-            {
-              "text": "Catt"
-            }
-          ],
-          "answer": 0,
-          "explanation": "\"Cat\" is spelled with a \"c\" at the beginning. The letter C sounds like /K/ in this word."
-        },
-        {
-          "questionNo": 17,
-          "question": "Which is the correct spelling? <br><img width='150px' src='./assests/images/question/17.png'>",
-          "options": [
-            {
-              "text": "Qween"
-            },
-            {
-              "text": "Kween"
-            },
-            {
-              "text": "Queen"
-            },
-            {
-              "text": "Cween"
-            }
-          ],
-          "answer": 2,
-          "explanation": "\"Queen\" is spelled with \"qu\" at the beginning. It makes the sound of /kw/ in the beginning."
-        },
-        {
-          "questionNo": 18,
-          "question": "Hear the word and choose the correct spelling: ",
-          "questionSound":"./assests/sounds/qasounds/kite.mp3",
-
-          "options": [
-            {
-              "text": "Kite"
-            },
-            {
-              "text": "Cite"
-            },
-            {
-              "text": "Qite"
-            },
-            {
-              "text": "Kight"
-            }
-          ],
-          "answer": 0,
-          "explanation": "\"Kite\" is spelled with a \"k\" at the beginning. It makes the /k/ sound in the beginning."
-        },
-        {
-          "questionNo": 19,
-          "question": "In which word does the letter “C” sound different?",
-          "options": [
-            {
-              "text": "Cat"
-            },
-            {
-              "text": "Cool"
-            },
-            {
-              "text": "City"
-            },
-            {
-              "text": "Cold"
-            }
-          ],
-          "answer": 2,
-          "explanation": "The word “City” starts with a /ss/ sound in the beginning. Other words start with a /k/ sound."
-        },
-        {
-          "questionNo": 20,
-          "question": "Hear the word and choose the correct spelling: ",
-          "questionSound":"./assests/sounds/qasounds/question.mp3",
-
-          "options": [
-            {
-              "text": "Cuestion"
-            },
-            {
-              "text": "Question"
-            },
-            {
-              "text": "Kwestion"
-            }
-          ],
-          "answer": 1,
-          "explanation": "\"Question\" is spelled with \"qu\" at the beginning. It makes the sound of /kw/ in the beginning."
-        }
-      ]
-    },
-    {
-      "heading": "Diphthongs “ai” and “ay”",
-      "questions": [
-        {
-          "questionNo": 21,
-          "question": "Which word has the \"ai\" sound?",
-          "options": [
-            {
-              "text": "Day"
-            },
-            {
-              "text": "Rain"
-            },
-            {
-              "text": "Boy"
-            },
-            {
-              "text": "Cat"
-            }
-          ],
-          "answer": 1,
-          "explanation": "\"Rain\" uses the \"ai\" diphthong to make the long \"a\" sound."
-        },
-        {
-          "questionNo": 22,
-          "question": "How do you spell the word that rhymes with \"way\"?",
-          "questionSound":"./assests/sounds/qasounds/way.mp3",
-
-          "options": [
-            {
-              "text": "Dai"
-            },
-            {
-              "text": "Dey"
-            },
-            {
-              "text": "Day"
-            },
-            {
-              "text": "Dae"
-            }
-          ],
-          "answer": 2,
-          "explanation": "\"Day\" uses the \"ay\" diphthong to make the long \"a\" sound at the end of the word."
-        },
-        {
-          "questionNo": 23,
-          "question": "Which word has the \"ay\" sound?",
-          "options": [
-            {
-              "text": "/Mail/"
-            },
-            {
-              "text": "/Play/"
-            },
-            {
-              "text": "/Tree/"
-            },
-            {
-              "text": "/Boat/"
-            }
-          ],
-          "answer": 1,
-          "explanation": "\"Play\" uses the \"ay\" diphthong to make the long \"a\" sound at the end."
-        },
-        {
-          "questionNo": 24,
-          "question": "Hear the word: /Paint/. In this word, where is the \"ai\"?",
-          "questionSound":"./assests/sounds/qasounds/paint.mp3",
-
-          "options": [
-            {
-              "text": "At the beginning"
-            },
-            {
-              "text": "In the middle"
-            },
-            {
-              "text": "At the end"
-            }
-          ],
-          "answer": 1,
-          "explanation": "The word is spelled as “Paint”. \"ai\" appears in the middle of \"paint.\""
-        },
-        {
-          "questionNo": 25,
-          "question": "Which word has the \"ay\" sound at the end?",
-          "options": [
-            {
-              "text": "/Wait/",
-              "image":"./assests/images/option/16.jpg",
-              "sound": "./assests/sounds/qasounds/wait.mp3"
-
-            },
-            {
-              "text": "/May/",
-              "image":"./assests/images/option/17.jpg",
-              "sound": "./assests/sounds/qasounds/may.mp3"
-
-            },
-            {
-              "text": "/Pain/",
-              "image":"./assests/images/option/18.jpg",
-              "sound": "./assests/sounds/qasounds/pain.mp3"
-
-            },
-            {
-              "text": "/Sail/",
-              "image":"./assests/images/option/19.jpg",
-              "sound": "./assests/sounds/qasounds/sail.mp3"
-
-            }
-          ],
-          "answer": 1,
-          "explanation": "\"May\" uses the \"ay\" diphthong to make the long \"a\" sound at the end."
-        }
-      ]
-    },
-    {
-      "heading": "Diphthongs “ee” and “ea”",
-      "questions": [
-        {
-          "questionNo": 26,
-          "question": "Which word has the \"ee\" sound?",
-          "options": [
-            {
-              "text": "Cat"
-            },
-            {
-              "text": "Dog"
-            },
-            {
-              "text": "Tree"
-            },
-            {
-              "text": "Ball"
-            }
-          ],
-          "answer": 2,
-          "explanation": "\"Tree\" uses the \"ee\" diphthong to make the long \"e\" sound."
-        },
-        {
-          "questionNo": 27,
-          "question": "How do you spell the word that means \"to look at\"?",
-          "options": [
-            {
-              "text": "See"
-            },
-            {
-              "text": "Sea"
-            },
-            {
-              "text": "Sei"
-            },
-            {
-              "text": "Se"
-            }
-          ],
-          "answer": 0,
-          "explanation": "\"See\" uses the \"ee\" diphthong to make the long \"e\" sound."
-        },
-        {
-          "questionNo": 28,
-          "question": "Which word has the \"ea\" sound?",
-          "options": [
-            {
-              "text": "/Read/",
-              "image":"./assests/images/option/20.jpg",
-              "sound": "./assests/sounds/qasounds/read.mp3"
-
-            },
-            {
-              "text": "/Red/",
-              "image":"./assests/images/option/21.jpg",
-              "sound": "./assests/sounds/qasounds/red.mp3"
-
-            }
-          ],
-          "answer": 0,
-          "explanation": "The spelling is R-E-A-D. \"Read\" uses the \"ea\" diphthong to make the long \"e\" sound."
-        },
-        {
-          "questionNo": 29,
-          "question": "How do you spell the word that means \"a big body of water\"?",
-          "options": [
-            {
-              "text": "Se"
-            },
-            {
-              "text": "Sea"
-            },
-            {
-              "text": "See"
-            },
-            {
-              "text": "Sei"
-            }
-          ],
-          "answer": 1,
-          "explanation": "\"Sea\" uses the \"ea\" diphthong to make the long \"e\" sound."
-        },
-        {
-          "questionNo": 30,
-          "question": "Look at the image and choose which word is spelled correctly.  <br><img width='150px' src='./assests/images/question/30.png'>",
-          "options": [
-            {
-              "text": "Sheep"
-            },
-            {
-              "text": "Shep"
-            },
-            {
-              "text": "Sheap"
-            },
-            {
-              "text": "Sheeep"
-            }
-          ],
-          "answer": 0,
-          "explanation": "\"Sheep\" uses the \"ee\" diphthong to make the long \"e\" sound."
-        }
-      ]
-    },
-    {
-      "heading": "Diphthongs “oi”, “ou,” “ow,” and “oy”",
-      "questions": [
-        {
-          "questionNo": 31,
-          "question": "Which word has the /oy/ sound?",
-          "options": [
-            {
-              "text": "Boy",
-              "image":"./assests/images/option/22.jpg",
-              "sound": "./assests/sounds/qasounds/boy.mp3"
-
-            },
-            {
-              "text": "Coin",
-              "image":"./assests/images/option/23.jpg",
-              "sound": "./assests/sounds/qasounds/coin.mp3"
-
-            },
-            {
-              "text": "Cow",
-              "image":"./assests/images/option/24.jpg",
-              "sound": "./assests/sounds/qasounds/cow.mp3"
-
-            }
-          ],
-          "answer": 1,
-          "explanation": "The word \"coin\" has the /oy/ sound in it. The word uses the diphthong ‘oi’ in between."
-        },
-        {
-          "questionNo": 32,
-          "question": "What word has the /oy/ sound?",
-          "options": [
-            {
-              "text": "Toy",
-              "image":"./assests/images/option/25.jpg",
-              "sound": "./assests/sounds/qasounds/toy.mp3"
-
-            },
-            {
-              "text": "Out",
-              "image":"./assests/images/option/26.jpg",
-              "sound": "./assests/sounds/qasounds/out.mp3"
-
-            },
-            {
-              "text": "Oil",
-              "image":"./assests/images/option/27.jpg",
-              "sound": "./assests/sounds/qasounds/oil.mp3"
-
-            }
-          ],
-          "answer": 0,
-          "explanation": "The word \"toy\" has the /oy/ sound at the end. The word uses the diphthong ‘oy’ in between."
-        },
-        {
-          "questionNo": 33,
-          "question": "Which word has the /ow/ sound?",
-          "options": [
-            {
-              "text": "Train",
-              "image":"./assests/images/option/28.jpg",
-              "sound": "./assests/sounds/qasounds/train.mp3"
-
-            },
-            {
-              "text": "Joy",
-              "image":"./assests/images/option/29.jpg",
-              "sound": "./assests/sounds/qasounds/joy.mp3"
-
-            },
-            {
-              "text": "House",
-              "image":"./assests/images/option/30.jpg",
-              "sound": "./assests/sounds/qasounds/house.mp3"
-
-            }
-          ],
-          "answer": 2,
-          "explanation": "The word \"house\" has the /ow/ sound in it. It uses the diphthong ‘ou’ in it."
-        },
-        {
-          "questionNo": 34,
-          "question": "Which word uses the diphthong ‘oi’?",
-          "options": [
-            {
-              "text": "Point",
-              "image":"./assests/images/option/31.jpg",
-              "sound": "./assests/sounds/qasounds/point.mp3"
-
-            },
-            {
-              "text": "Soil",
-              "image":"./assests/images/option/32.jpg",
-              "sound": "./assests/sounds/qasounds/soil.mp3"
-
-            },
-            {
-              "text": "Foil",
-              "image":"./assests/images/option/33.jpg",
-              "sound": "./assests/sounds/qasounds/foil.mp3"
-
-            },
-            {
-              "text": "All of the above",
-              "image":"./assests/images/option/34.jpg"
-            }
-          ],
-          "answer": 3,
-          "explanation": "All the given words have the /oy/ in them. These words have the diphthong ‘oi’ in the middle."
-        },
-        {
-          "questionNo": 35,
-          "question": "The diphthong ‘ow’ is used at the _____ of a word or a syllable.",
-          "options": [
-            {
-              "text": "Middle"
-            },
-            {
-              "text": "Start"
-            },
-            {
-              "text": "End"
-            }
-          ],
-          "answer": 2,
-          "explanation": "The diphthong ‘ow’ is used at the end of the word or a syllable. When you hear /ow/ at the end of a word or syllable, use 'ow' (cow, now, pow-er, show-er)."
-        }
-      ]
-    },
-    {
-      "heading": "Types of Sentences",
-      "questions": [
-        {
-          "questionNo": 36,
-          "question": "Which type of sentence is this? \"The cat is sleeping.\"",
-          "options": [
-            {
-              "text": "Question"
-            },
-            {
-              "text": "Statement"
-            },
-            {
-              "text": "Exclamation"
-            },
-            {
-              "text": "Command"
-            }
-          ],
-          "answer": 1,
-          "explanation": "This sentence tells us something. It states a fact, so it's a statement."
-        },
-        {
-          "questionNo": 37,
-          "question": "Which sentence is a question?",
+          "question": "Which is a sentence fragment?",
           "options": [
             {
               "text": "I love ice cream."
             },
             {
-              "text": "Wow, that's amazing!"
+              "text": "The red balloon."
             },
             {
-              "text": "Do you like pizza?"
+              "text": "She sings beautifully."
             },
             {
-              "text": "Please close the door."
+              "text": "They went to the park."
             }
           ],
-          "answer": 2,
-          "explanation": "This sentence asks something and ends with a question mark, so it's a question."
+          "answer": 1,
+          "explanation": "A sentence fragment is an incomplete sentence. \"The red balloon\" is just a subject without a predicate. It doesn't tell us what the balloon is doing, so it's not a complete thought."
         },
         {
-          "questionNo": 38,
-          "question": "Which is an exclamation sentence?",
+          "questionNo": 3,
+          "question": "Identify the run-on sentence:",
           "options": [
             {
-              "text": "The sun is bright."
+              "text": "I like apples."
             },
             {
-              "text": "Where is my book?"
+              "text": "The sun is bright it hurts my eyes."
             },
             {
-              "text": "Wash your hands."
+              "text": "We went to the zoo."
             },
             {
-              "text": "What a beautiful day!"
+              "text": "The flowers are pretty."
+            }
+          ],
+          "answer": 1,
+          "explanation": "A run-on happens when we forget to put full stops (.) or commas (,) between different thoughts. This sentence should be separated into two sentences: \"The sun is bright. It hurts my eyes.\" or \"The sun is bright, so it hurts my eyes.\""
+        },
+        {
+          "questionNo": 4,
+          "question": "Choose the complete sentence:",
+          "options": [
+            {
+              "text": "After the party."
+            },
+            {
+              "text": "The happy children."
+            },
+            {
+              "text": "Birds flying in the sky."
+            },
+            {
+              "text": "The teacher reads a story."
             }
           ],
           "answer": 3,
-          "explanation": "This sentence shows strong feelings and ends with an exclamation mark, so it's an exclamation."
+          "explanation": "This is a complete sentence with a subject (\"The teacher\") and a predicate (\"reads a story\"). It expresses a complete thought."
         },
         {
-          "questionNo": 39,
-          "question": "What type of sentence is \"How old are you?\"",
+          "questionNo": 5,
+          "question": "Identify the run-on sentence:",
           "options": [
             {
-              "text": "Statement"
+              "text": "The cake was delicious everyone wanted more."
             },
             {
-              "text": "Question"
+              "text": "I like to read books."
             },
             {
-              "text": "Exclamation"
+              "text": "The sun is setting."
             },
             {
-              "text": "Command"
+              "text": "We played games all day."
             }
           ],
-          "answer": 1,
-          "explanation": "This sentence asks for information and ends with a question mark, so it's a question."
-        },
-        {
-          "questionNo": 40,
-          "question": "Which sentence is a command?",
-          "options": [
-            {
-              "text": "The sky is blue."
-            },
-            {
-              "text": "Sit down, please."
-            },
-            {
-              "text": "Are you hungry?"
-            },
-            {
-              "text": "I love to play."
-            }
-          ],
-          "answer": 1,
-          "explanation": "This sentence tells someone to do something, so it's a command."
+          "answer": 0,
+          "explanation": "A run-on happens when we forget to put full stops (.) or commas (,) between different thoughts. It should be: \"The cake was delicious. Everyone wanted more.\" or \"The cake was delicious, so everyone wanted more.\""
         }
       ]
     },
     {
-      "heading": "Subject and Predicate",
+      "heading": "O vs OO words",
       "questions": [
         {
-          "questionNo": 41,
-          "question": "In \"Birds fly high,\" what is the predicate?",
+          "questionNo": 6,
+          "question": "In the word \"flood\", how is 'oo' pronounced?",
+          "questionSound":"./assests/sounds/qasounds/flood.mp3",
           "options": [
             {
-              "text": "Birds"
+              "text": "Like in \"moon\"",
+              "sound":"./assests/sounds/qasounds/moon.mp3",
+              "image":"./assests/images/option/1.jpg"
             },
             {
-              "text": "Fly"
+              "text": "Like in \"book\"",
+              "sound":"./assests/sounds/qasounds/book.mp3",
+              "image":"./assests/images/option/2.jpg"
+              
             },
             {
-              "text": "High"
-            },
-            {
-              "text": "Fly high"
-            }
-          ],
-          "answer": 3,
-          "explanation": "The predicate tells us something about the subject. Here, it tells us what the birds do."
-        },
-        {
-          "questionNo": 42,
-          "question": "What's the subject in \"My friend likes ice cream\"?",
-          "options": [
-            {
-              "text": "My"
-            },
-            {
-              "text": "Friend"
-            },
-            {
-              "text": "My friend"
-            },
-            {
-              "text": "Likes ice cream"
+              "text": "Like in \"blood\"",
+              "sound":"./assests/sounds/qasounds/blood.mp3",
+              "image":"./assests/images/option/3.jpg"
             }
           ],
           "answer": 2,
-          "explanation": "The subject is the complete person we're talking about, including 'my.'"
+          "explanation": "The 'oo' in \"flood\" is pronounced with an \"uh\" sound, like in \"blood\"."
         },
         {
-          "questionNo": 43,
-          "question": "In \"We read books,\" what's the predicate?",
+          "questionNo": 7,
+          "question": "Look at the image and choose the word:<br><img src='./assests/images/question/spoon.png' width='150px'/>",
           "options": [
+            {
+              "text": "Spon"
+            },
+            {
+              "text": "Spoon"
+            },
+            {
+              "text": "Spawn"
+            }
+          ],
+          "answer": 1,
+          "explanation": "The correct word is \"spoon.\" A spoon is a tool we use to eat soup or stir things. It has a round part at the end and a long handle."
+        },
+        {
+          "questionNo": 8,
+          "question": "Which word has a different 'o' sound from the others?",
+          "options": [
+            {
+              "text": "hop",
+              "sound":"./assests/sounds/qasounds/hop.mp3",
+              "image":"./assests/images/option/4.jpg"
+            },
+            {
+              "text": "cop",
+              "sound":"./assests/sounds/qasounds/cop.mp3",
+              "image":"./assests/images/option/5.jpg"
+            },
+            {
+              "text": "robe",
+              "sound":"./assests/sounds/qasounds/robe.mp3",
+              "image":"./assests/images/option/6.jpg"
+            }
+          ],
+          "answer": 2,
+          "explanation": "\"Robe\" has a long 'o' sound, while \"hop\" and \"cop\" have an ‘aw’ sound. The silent 'e' at the end of \"robe\" makes the 'o' say its name."
+        },
+        {
+          "questionNo": 9,
+          "question": "How is the 'oo' pronounced in \"food\"?",
+          "questionSound":"./assests/sounds/qasounds/food.mp3",
+          "options": [
+            {
+              "text": "Like in \"moon\"",
+              "sound":"./assests/sounds/qasounds/moon.mp3",
+              "image":"./assests/images/option/7.jpg"
+            },
+            {
+              "text": "Like in \"book\"",
+              "sound":"./assests/sounds/qasounds/book.mp3",
+              "image":"./assests/images/option/8.jpg"
+            },
+            {
+              "text": "Like in \"flood\"",
+              "sound":"./assests/sounds/qasounds/flood.mp3",
+              "image":"./assests/images/option/9.jpg"
+            }
+          ],
+          "answer": 0,
+          "explanation": "In \"food\", the 'oo' is pronounced with a long sound, like in \"moon\"."
+        },
+        {
+          "questionNo": 10,
+          "question": "Which word has a different 'o' sound from the others?",
+          "options": [
+            {
+              "text": "poke",
+              "sound":"./assests/sounds/qasounds/poke.mp3",
+              "image":"./assests/images/option/10.jpg"
+            },
+            {
+              "text": "sock",
+              "sound":"./assests/sounds/qasounds/sock.mp3",
+              "image":"./assests/images/option/11.jpg"
+            },
+            {
+              "text": "lock",
+              "sound":"./assests/sounds/qasounds/lock.mp3",
+              "image":"./assests/images/option/12.jpg"
+            }
+          ],
+          "answer": 0,
+          "explanation": "\"Poke\" has a long 'o' sound, while \"sock\" and \"lock\" both have an ‘aw’ sound. The silent 'e' at the end of \"poke\" makes the 'o' say its name."
+        }
+      ]
+    },
+    {
+      "heading": "Pronoun (Personal and Possessive)",
+      "questions": [
+        {
+          "questionNo": 11,
+          "question": "Which word is a personal pronoun?",
+          "options": [
+            {
+              "text": "Them"
+            },
+            {
+              "text": "She"
+            },
+            {
+              "text": "Happy"
+            },
+            {
+              "text": "Run"
+            }
+          ],
+          "answer": 1,
+          "explanation": "A personal pronoun is a word that replaces a specific noun (name of a person, place, or thing). \"She\" is a personal pronoun that can replace a female person's name or noun."
+        },
+        {
+          "questionNo": 12,
+          "question": "Which word is not a personal pronoun?",
+          "options": [
+            {
+              "text": "I"
+            },
             {
               "text": "We"
             },
             {
-              "text": "Read"
+              "text": "Your"
             },
             {
-              "text": "Books"
+              "text": "They"
+            }
+          ],
+          "answer": 2,
+          "explanation": "\"Your\" is a possessive pronoun, not a personal pronoun. Personal pronouns include words like I, you, he, she, it, we, and they, which replace specific nouns in sentences."
+        },
+        {
+          "questionNo": 13,
+          "question": "Choose the correct personal pronoun to complete this sentence: \"_____ are going to the movies.\"",
+          "options": [
+            {
+              "text": "Us"
             },
             {
-              "text": "Read books"
+              "text": "We"
+            },
+            {
+              "text": "Our"
+            },
+            {
+              "text": "Them"
+            }
+          ],
+          "answer": 1,
+          "explanation": "\"We\" is the correct personal pronoun to use as the subject of this sentence. It refers to a group of people including the speaker."
+        },
+        {
+          "questionNo": 14,
+          "question": "Which word is a possessive pronoun?",
+          "options": [
+            {
+              "text": "You"
+            },
+            {
+              "text": "Our"
+            },
+            {
+              "text": "They"
+            },
+            {
+              "text": "He"
+            }
+          ],
+          "answer": 1,
+          "explanation": "\"Our\" is a possessive pronoun that shows ownership by a group including the speaker. It can stand alone in a sentence to show possession."
+        },
+        {
+          "questionNo": 15,
+          "question": "\"My\" is a possessive pronoun.",
+          "options": [
+            {
+              "text": "True"
+            },
+            {
+              "text": "False"
+            }
+          ],
+          "answer": 0,
+          "explanation": "\"My\" shows ownership and is used before nouns to indicate possession, such as in the phrase \"my book.\""
+        }
+      ]
+    },
+    {
+      "heading": "Pronoun (Reflexive)",
+      "questions": [
+        {
+          "questionNo": 16,
+          "question": "Which word in this sentence is a reflexive pronoun? \"I made the cake myself.\"",
+          "options": [
+            {
+              "text": "I"
+            },
+            {
+              "text": "made"
+            },
+            {
+              "text": "cake"
+            },
+            {
+              "text": "myself"
             }
           ],
           "answer": 3,
-          "explanation": "The predicate tells us what we do. Here, it tells us that we read books."
+          "explanation": "A reflexive pronoun refers back to the subject of the sentence. In this case, \"myself\" refers back to \"I\", making it the reflexive pronoun."
         },
         {
-          "questionNo": 44,
-          "question": "In \"She sings beautifully,\" what is the predicate?",
+          "questionNo": 17,
+          "question": "Which sentence uses a reflexive pronoun correctly?",
+          "options": [
+            {
+              "text": "He gave myself a gift."
+            },
+            {
+              "text": "The dog walked itself."
+            },
+            {
+              "text": "We told yourself a story."
+            },
+            {
+              "text": "She helped themself to some cake."
+            }
+          ],
+          "answer": 1,
+          "explanation": "This sentence correctly uses the reflexive pronoun \"itself\" to refer back to the dog, which is the subject of the sentence."
+        },
+        {
+          "questionNo": 18,
+          "question": "What is the reflexive pronoun for \"you\" (singular)?",
+          "options": [
+            {
+              "text": "myself"
+            },
+            {
+              "text": "himself"
+            },
+            {
+              "text": "yourself"
+            },
+            {
+              "text": "themselves"
+            }
+          ],
+          "answer": 2,
+          "explanation": "The reflexive pronoun for \"you\" when referring to one person is \"yourself\". It's used when the subject and object of a sentence are the same person."
+        },
+        {
+          "questionNo": 19,
+          "question": "Choose the correct reflexive pronoun: \"We can do it _____.\"",
+          "options": [
+            {
+              "text": "ourselves"
+            },
+            {
+              "text": "yourselves"
+            },
+            {
+              "text": "themselves"
+            },
+            {
+              "text": "himself"
+            }
+          ],
+          "answer": 0,
+          "explanation": "The subject of the sentence is \"We\", so the correct reflexive pronoun is \"ourselves\". It refers back to the subject \"We\"."
+        },
+        {
+          "questionNo": 20,
+          "question": "Which word is not a reflexive pronoun?",
+          "options": [
+            {
+              "text": "himself"
+            },
+            {
+              "text": "itself"
+            },
+            {
+              "text": "myself"
+            },
+            {
+              "text": "sheself"
+            }
+          ],
+          "answer": 3,
+          "explanation": "“Sheself” is not a pronoun. However, \"She\" is a personal pronoun, not a reflexive pronoun. Reflexive pronouns always end in \"-self\" (singular) or \"-selves\" (plural)."
+        }
+      ]
+    },
+    {
+      "heading": "Adjectives",
+      "questions": [
+        {
+          "questionNo": 21,
+          "question": "Which word is an adjective in \"The big dog barked\"?",
+          "options": [
+            {
+              "text": "The"
+            },
+            {
+              "text": "big"
+            },
+            {
+              "text": "dog"
+            },
+            {
+              "text": "barked"
+            }
+          ],
+          "answer": 1,
+          "explanation": "\"Big\" is the adjective here. It describes the dog, telling us what kind of dog it is - a large one."
+        },
+        {
+          "questionNo": 22,
+          "question": "What's the adjective in \"The happy children played\"?",
+          "options": [
+            {
+              "text": "happy"
+            },
+            {
+              "text": "The"
+            },
+            {
+              "text": "children"
+            },
+            {
+              "text": "played"
+            }
+          ],
+          "answer": 0,
+          "explanation": "\"Happy\" is the adjective. It tells us how the children feel while they're playing."
+        },
+        {
+          "questionNo": 23,
+          "question": "Which word is an adjective in \"I ate a sweet apple\"?",
+          "options": [
+            {
+              "text": "I"
+            },
+            {
+              "text": "ate"
+            },
+            {
+              "text": "sweet"
+            },
+            {
+              "text": "apple"
+            }
+          ],
+          "answer": 2,
+          "explanation": "\"Sweet\" is the adjective. It describes how the apple tastes."
+        },
+        {
+          "questionNo": 24,
+          "question": "Which is the adjective in \"She has curly hair\"?",
           "options": [
             {
               "text": "She"
             },
             {
-              "text": "Sings"
+              "text": "has"
             },
             {
-              "text": "Beautifully"
+              "text": "curly"
             },
             {
-              "text": "Sings beautifully"
+              "text": "hair"
             }
           ],
-          "answer": 3,
-          "explanation": "The predicate includes the action (sings) and how it's done (beautifully)."
+          "answer": 2,
+          "explanation": "\"Curly\" is the adjective. It describes what kind of hair she has."
         },
         {
-          "questionNo": 45,
-          "question": "What's the subject in \"Big elephants eat leaves\"?",
+          "questionNo": 25,
+          "question": "Which word is an adjective in \"The brave firefighter saved the cat\"?",
           "options": [
             {
-              "text": "Big"
+              "text": "brave"
             },
             {
-              "text": "Big elephants"
+              "text": "firefighter"
             },
             {
-              "text": "Eat leaves"
+              "text": "saved"
+            },
+            {
+              "text": "the"
+            }
+          ],
+          "answer": 0,
+          "explanation": "\"Brave\" is the adjective. It tells us about the firefighter's character - that they are courageous."
+        }
+      ]
+    },
+    {
+      "heading": "Silent letters (E and K)",
+      "questions": [
+        {
+          "questionNo": 26,
+          "question": "Which word has a silent 'E' at the end?",
+          "options": [
+            {
+              "text": "me",
+              "sound":"./assests/sounds/qasounds/me.mp3",
+              "image":"./assests/images/option/13.jpg"
+            },
+            {
+              "text": "tell",
+              "sound":"./assests/sounds/qasounds/tell.mp3",
+              "image":"./assests/images/option/14.jpg"
+            },
+            {
+              "text": "bite",
+              "sound":"./assests/sounds/qasounds/bite.mp3",
+              "image":"./assests/images/option/15.jpg"
+            },
+            {
+              "text": "dream",
+              "sound":"./assests/sounds/qasounds/dream.mp3",
+              "image":"./assests/images/option/16.jpg"
+            }
+          ],
+          "answer": 2,
+          "explanation": "In the word \"bite,\" the 'E' at the end is silent. It doesn't make a sound, but it changes how we pronounce the 'I' in the middle of the word, making it say its name (long I sound)."
+        },
+        {
+          "questionNo": 27,
+          "question": "In which word is the 'K' silent?",
+          "options": [
+            {
+              "text": "kick",
+              "sound":"./assests/sounds/qasounds/kick.mp3",
+              "image":"./assests/images/option/17.jpg"
+            },
+            {
+              "text": "know",
+              "sound":"./assests/sounds/qasounds/know.mp3",
+              "image":"./assests/images/option/18.jpg"
+            },
+            {
+              "text": "key",
+              "sound":"./assests/sounds/qasounds/key.mp3",
+              "image":"./assests/images/option/19.jpg"
+            },
+            {
+              "text": "king",
+              "sound":"./assests/sounds/qasounds/king.mp3",
+              "image":"./assests/images/option/20.jpg"
             }
           ],
           "answer": 1,
-          "explanation": "The subject is the complete thing we're talking about, including describing words like 'big.'"
+          "explanation": "In the word \"know,\" the 'K' at the beginning is silent. We don't pronounce it; the word sounds like it starts with the 'N'."
+        },
+        {
+          "questionNo": 28,
+          "question": "Which word has a silent 'K'?",
+          "options": [
+            {
+              "text": "knit",
+              "sound":"./assests/sounds/qasounds/knit.mp3",
+              "image":"./assests/images/option/21.jpg"
+            },
+            {
+              "text": "kite",
+              "sound":"./assests/sounds/qasounds/kite.mp3",
+              "image":"./assests/images/option/22.jpg"
+            },
+            {
+              "text": "keep",
+              "sound":"./assests/sounds/qasounds/keep.mp3",
+              "image":"./assests/images/option/23.jpg"
+            },
+            {
+              "text": "kid",
+              "sound":"./assests/sounds/qasounds/kid.mp3",
+              "image":"./assests/images/option/24.jpg"
+            }
+          ],
+          "answer": 0,
+          "explanation": "In \"knit,\" the 'K' at the beginning is silent. We only pronounce the 'N' sound at the start of the word."
+        },
+        {
+          "questionNo": 29,
+          "question": "Choose the word where 'E' is silent:",
+          "options": [
+            {
+              "text": "see",
+              "sound":"./assests/sounds/qasounds/see.mp3",
+              "image":"./assests/images/option/25.jpg"
+            },
+            {
+              "text": "me",
+              "sound":"./assests/sounds/qasounds/me.mp3",
+              "image":"./assests/images/option/26.jpg"
+            },
+            {
+              "text": "take",
+              "sound":"./assests/sounds/qasounds/take.mp3",
+              "image":"./assests/images/option/27.jpg"
+            },
+            {
+              "text": "he",
+              "sound":"./assests/sounds/qasounds/he.mp3",
+              "image":"./assests/images/option/28.jpg"
+            }
+          ],
+          "answer": 2,
+          "explanation": "In \"take,\" the 'E' at the end is silent. It doesn't make a sound, but it changes how we pronounce the 'A', making it say its name (long A sound)."
+        },
+        {
+          "questionNo": 30,
+          "question": "In which word is the 'K' not silent?",
+          "options": [
+            {
+              "text": "knock",
+              "sound":"./assests/sounds/qasounds/knock.mp3",
+              "image":"./assests/images/option/29.jpg"
+            },
+            {
+              "text": "knot",
+              "sound":"./assests/sounds/qasounds/knot.mp3",
+              "image":"./assests/images/option/30.jpg"
+            },
+            {
+              "text": "king",
+              "sound":"./assests/sounds/qasounds/king.mp3",
+              "image":"./assests/images/option/31.jpg"
+            },
+            {
+              "text": "knight",
+              "sound":"./assests/sounds/qasounds/knight.mp3",
+              "image":"./assests/images/option/32.jpg"
+            }
+          ],
+          "answer": 2,
+          "explanation": "In \"king,\" we pronounce the 'K' at the beginning. In all the other words, the 'K' is silent."
+        }
+      ]
+    },
+    {
+      "heading": "E vs EE words",
+      "questions": [
+        {
+          "questionNo": 31,
+          "question": "How do you say the 'E' in 'me'?",
+          "options": [
+            {
+              "text": "Like the 'E' in 'bed'",
+              "sound":"./assests/sounds/qasounds/bed.mp3",
+              "image":"./assests/images/option/33.jpg"
+            },
+            {
+              "text": "Like the 'EE' in 'sheep'",
+              "sound":"./assests/sounds/qasounds/sheep.mp3",
+              "image":"./assests/images/option/34.jpg"
+            }
+          ],
+          "answer": 1,
+          "explanation": "In 'me', the 'E' makes a long 'E' sound, just like the 'EE' in 'sheep'. It's the sound you make when you say the letter 'E'."
+        },
+        {
+          "questionNo": 32,
+          "question": "Fill in the blank: I like to ___ books about animals.",
+          "options": [
+            {
+              "text": "red"
+            },
+            {
+              "text": "reed"
+            },
+            {
+              "text": "read"
+            }
+          ],
+          "answer": 2,
+          "explanation": "The correct word is 'read'. In this sentence, 'read' is pronounced with a long 'E' sound, like 'reed'. It means to look at and understand written words."
+        },
+        {
+          "questionNo": 33,
+          "question": "Which word has a different 'E' sound from the others?",
+          "options": [
+            {
+              "text": "team",
+              "sound":"./assests/sounds/qasounds/team.mp3",
+              "image":"./assests/images/option/35.jpg"
+            },
+            {
+              "text": "cream",
+              "sound":"./assests/sounds/qasounds/cream.mp3",
+              "image":"./assests/images/option/36.jpg"
+            },
+            {
+              "text": "them",
+              "sound":"./assests/sounds/qasounds/them.mp3",
+              "image":"./assests/images/option/37.jpg"
+            }
+          ],
+          "answer": 2,
+          "explanation": "'Them' has a short 'E' (like eh) sound, while all the other words (team, cream) have a long 'E' sound made by 'EA'."
+        },
+        {
+          "questionNo": 34,
+          "question": "Which word has the same 'E' sound as 'bed'?",
+          "options": [
+            {
+              "text": "beat",
+              "sound":"./assests/sounds/qasounds/beat.mp3",
+              "image":"./assests/images/option/38.jpg"
+            },
+            {
+              "text": "bean",
+              "sound":"./assests/sounds/qasounds/bean.mp3",
+              "image":"./assests/images/option/39.jpg"
+            },
+            {
+              "text": "lend",
+              "sound":"./assests/sounds/qasounds/lend.mp3",
+              "image":"./assests/images/option/40.jpg"
+            }
+          ],
+          "answer": 2,
+          "explanation": "'Lend' has the same short 'E' (like 'eh') sound as 'bed'. The other words (beat and bean) all have a long 'E' sound."
+        },
+        {
+          "questionNo": 35,
+          "question": "Which word has a long 'E' sound?",
+          "options": [
+            {
+              "text": "get",
+              "sound":"./assests/sounds/qasounds/get.mp3",
+              "image":"./assests/images/option/41.jpg"
+            },
+            {
+              "text": "set",
+              "sound":"./assests/sounds/qasounds/set.mp3",
+              "image":"./assests/images/option/42.jpg"
+            },
+            {
+              "text": "left",
+              "sound":"./assests/sounds/qasounds/left.mp3",
+              "image":"./assests/images/option/43.jpg"
+            },
+            {
+              "text": "feet",
+              "sound":"./assests/sounds/qasounds/feet.mp3",
+              "image":"./assests/images/option/44.jpg"
+            }
+          ],
+          "answer": 3,
+          "explanation": "'Feet' has a long 'E' sound made by the 'EE'. The other words (get, set, left) all have a short 'E' (eh) sound."
+        }
+      ]
+    },
+    {
+      "heading": "Silent letters (B, C, and W)",
+      "questions": [
+        {
+          "questionNo": 36,
+          "question": "Which word has a silent 'B'?",
+          "options": [
+            {
+              "text": "bat",
+              "sound":"./assests/sounds/qasounds/bat.mp3",
+              "image":"./assests/images/option/45.jpg"
+            },
+            {
+              "text": "comb",
+              "sound":"./assests/sounds/qasounds/comb.mp3",
+              "image":"./assests/images/option/46.jpg"
+            },
+            {
+              "text": "bubble",
+              "sound":"./assests/sounds/qasounds/bubble.mp3",
+              "image":"./assests/images/option/47.jpg"
+            },
+            {
+              "text": "balloon",
+              "sound":"./assests/sounds/qasounds/balloon.mp3",
+              "image":"./assests/images/option/48.jpg"
+            }
+          ],
+          "answer": 1,
+          "explanation": "In the word 'comb,' the 'B' at the end is silent. We don't pronounce it; the word sounds like it ends with the 'M'."
+        },
+        {
+          "questionNo": 37,
+          "question": "Choose the word where 'W' is silent:",
+          "options": [
+            {
+              "text": "water",
+              "sound":"./assests/sounds/qasounds/water.mp3",
+              "image":"./assests/images/option/49.jpg"
+            },
+            {
+              "text": "write",
+              "sound":"./assests/sounds/qasounds/write.mp3",
+              "image":"./assests/images/option/50.jpg"
+            },
+            {
+              "text": "wall",
+              "sound":"./assests/sounds/qasounds/wall.mp3",
+              "image":"./assests/images/option/51.jpg"
+            },
+            {
+              "text": "window",
+              "sound":"./assests/sounds/qasounds/window.mp3",
+              "image":"./assests/images/option/52.jpg"
+            }
+          ],
+          "answer": 1,
+          "explanation": "In 'write,' the 'W' at the beginning is silent. We don't pronounce it; the word sounds like it starts with the 'R'."
+        },
+        {
+          "questionNo": 38,
+          "question": "Which word has a silent 'B'?",
+          "options": [
+            {
+              "text": "lamb",
+              "sound":"./assests/sounds/qasounds/lamb.mp3",
+              "image":"./assests/images/option/53.jpg"
+            },
+            {
+              "text": "baby",
+              "sound":"./assests/sounds/qasounds/baby.mp3",
+              "image":"./assests/images/option/54.jpg"
+            },
+            {
+              "text": "bike",
+              "sound":"./assests/sounds/qasounds/bike.mp3",
+              "image":"./assests/images/option/55.jpg"
+            },
+            {
+              "text": "ball",
+              "sound":"./assests/sounds/qasounds/ball.mp3",
+              "image":"./assests/images/option/56.jpg"
+            }
+          ],
+          "answer": 0,
+          "explanation": "In 'lamb,' the 'B' at the end is silent. We only pronounce the 'LAM' sound."
+        },
+        {
+          "questionNo": 39,
+          "question": "In which word is the 'C' not silent?",
+          "options": [
+            {
+              "text": "scissors",
+              "sound":"./assests/sounds/qasounds/scissors.mp3",
+              "image":"./assests/images/option/57.jpg"
+            },
+            {
+              "text": "scene",
+              "sound":"./assests/sounds/qasounds/scene.mp3",
+              "image":"./assests/images/option/58.jpg"
+            },
+            {
+              "text": "scent",
+              "sound":"./assests/sounds/qasounds/scent.mp3",
+              "image":"./assests/images/option/59.jpg"
+            },
+            {
+              "text": "scarf",
+              "sound":"./assests/sounds/qasounds/scarf.mp3",
+              "image":"./assests/images/option/60.jpg"
+            }
+          ],
+          "answer": 3,
+          "explanation": "In 'scarf,' we pronounce both the 'S' and 'C' sounds. The 'C' makes the /K/ sound after the letter 'S'. In all the other words, the 'C' is silent."
+        },
+        {
+          "questionNo": 40,
+          "question": "Which word has a silent 'W'?",
+          "options": [
+            {
+              "text": "wrong",
+              "sound":"./assests/sounds/qasounds/wrong.mp3",
+              "image":"./assests/images/option/61.jpg"
+            },
+            {
+              "text": "wave",
+              "sound":"./assests/sounds/qasounds/wave.mp3",
+              "image":"./assests/images/option/62.jpg"
+            },
+            {
+              "text": "swim",
+              "sound":"./assests/sounds/qasounds/swim.mp3",
+              "image":"./assests/images/option/63.jpg"
+            },
+            {
+              "text": "twins",
+              "sound":"./assests/sounds/qasounds/twins.mp3",
+              "image":"./assests/images/option/64.jpg"
+            }
+          ],
+          "answer": 0,
+          "explanation": "In 'wrong,' the 'W' at the beginning is silent. We don't pronounce it; the word sounds like it starts with the letter 'R'."
+        }
+      ]
+    },
+    {
+      "heading": "Action verb",
+      "questions": [
+        {
+          "questionNo": 41,
+          "question": "In 'She runs in the park,' what's the action verb?",
+          "options": [
+            {
+              "text": "She"
+            },
+            {
+              "text": "runs"
+            },
+            {
+              "text": "in"
+            },
+            {
+              "text": "park"
+            }
+          ],
+          "answer": 1,
+          "explanation": "'Runs' is the action verb. It shows what she is doing - moving fast on her feet."
+        },
+        {
+          "questionNo": 42,
+          "question": "Which word is the action verb in 'The bird flies high'?",
+          "options": [
+            {
+              "text": "The"
+            },
+            {
+              "text": "bird"
+            },
+            {
+              "text": "flies"
+            },
+            {
+              "text": "high"
+            }
+          ],
+          "answer": 2,
+          "explanation": "'Flies' is the action verb. It tells us what the bird is doing - moving through the air."
+        },
+        {
+          "questionNo": 43,
+          "question": "In 'They sing a happy song,' the word 'happy' is an action verb.",
+          "options": [
+            {
+              "text": "True"
+            },
+            {
+              "text": "False"
+            }
+          ],
+          "answer": 1,
+          "explanation": "'Sing' is the action verb. It shows what they are doing - making music with their voices."
+        },
+        {
+          "questionNo": 44,
+          "question": "Which is the action verb in 'The fish swims fast'?",
+          "options": [
+            {
+              "text": "The"
+            },
+            {
+              "text": "fish"
+            },
+            {
+              "text": "swims"
+            },
+            {
+              "text": "fast"
+            }
+          ],
+          "answer": 2,
+          "explanation": "'Swims' is the action verb. It tells us what the fish is doing - moving through water."
+        },
+        {
+          "questionNo": 45,
+          "question": "In 'They play soccer,' what's the action verb?",
+          "options": [
+            {
+              "text": "They"
+            },
+            {
+              "text": "soccer"
+            },
+            {
+              "text": "none of the above"
+            }
+          ],
+          "answer": 2,
+          "explanation": "'Play' is the action verb. It shows what they are doing - taking part in a game."
+        }
+      ]
+    },
+    {
+      "heading": "Helping Verb",
+      "questions": [
+        {
+          "questionNo": 46,
+          "question": "Which word is the helping verb in 'She is dancing'?",
+          "options": [
+            {
+              "text": "She"
+            },
+            {
+              "text": "is"
+            },
+            {
+              "text": "dancing"
+            }
+          ],
+          "answer": 1,
+          "explanation": "'Is' is the helping verb. It works with 'dancing' to show what she's doing right now."
+        },
+        {
+          "questionNo": 47,
+          "question": "In 'We are eating lunch,' what's the helping verb?",
+          "options": [
+            {
+              "text": "are"
+            },
+            {
+              "text": "We"
+            },
+            {
+              "text": "eating"
+            },
+            {
+              "text": "lunch"
+            }
+          ],
+          "answer": 0,
+          "explanation": "'Are' is the helping verb. It helps 'eating' to tell us what we're doing now."
+        },
+        {
+          "questionNo": 48,
+          "question": "In 'They were playing games,' what's the helping verb?",
+          "options": [
+            {
+              "text": "They"
+            },
+            {
+              "text": "were"
+            },
+            {
+              "text": "playing"
+            },
+            {
+              "text": "games"
+            }
+          ],
+          "answer": 1,
+          "explanation": "'Were' is the helping verb. It helps 'playing' to tell us what they did before."
+        },
+        {
+          "questionNo": 49,
+          "question": "Which is the helping verb in 'We have finished our homework'?",
+          "options": [
+            {
+              "text": "We"
+            },
+            {
+              "text": "homework"
+            },
+            {
+              "text": "finished"
+            },
+            {
+              "text": "have"
+            }
+          ],
+          "answer": 3,
+          "explanation": "'Have' is the helping verb. It works with 'finished' to tell us the action is complete."
+        },
+        {
+          "questionNo": 50,
+          "question": "In 'She was singing a song,' what's the helping verb?",
+          "options": [
+            {
+              "text": "She"
+            },
+            {
+              "text": "was"
+            },
+            {
+              "text": "singing"
+            },
+            {
+              "text": "song"
+            }
+          ],
+          "answer": 1,
+          "explanation": "'Was' is the helping verb. It helps 'singing' to show what she did in the past."
+        }
+      ]
+    },
+    {
+      "heading": "Story Writing",
+     
+      "questions": [
+        {
+          "questionNo": 51,
+          "story":"Once upon a time, in a small village, there was a kind dragon named Spark. He loved helping people by bringing them fresh water from the river and guarding the village at night. Even though he was big, the children loved playing with him because he was so gentle.<br><br> One day, a terrible storm came, and the river flooded the village. He quickly flew to the mountain and brought giant rocks to block the water. The village was safe, thanks to Spark’s bravery.<br><br>The villagers cheered and thanked Spark for saving their homes. From then on, Spark became the hero of the village, loved by all.",
+          "question": "What is the name of the friendly dragon in the story?",
+          "options": [
+            {
+              "text": "Flame"
+            },
+            {
+              "text": "Spark"
+            },
+            {
+              "text": "Smokey"
+            },
+            {
+              "text": "Scales"
+            }
+          ],
+          "answer": 1,
+          "explanation": "In the story, the kind dragon is named Spark. The first sentence says, 'Once upon a time, in a small village, there was a kind dragon named Spark.'"
+        },
+        {
+          "questionNo": 52,
+          "question": "Which of these is a good way to start a story?",
+          "options": [
+            {
+              "text": "The end"
+            },
+            {
+              "text": "Once upon a time"
+            },
+            {
+              "text": "Goodbye"
+            },
+            {
+              "text": "The moral of the story is"
+            }
+          ],
+          "answer": 1,
+          "explanation": "'Once upon a time' is a classic way to start a story, especially for children's stories and fairy tales. It immediately tells the reader that a story is beginning and sets the tone for what's to come."
+        },
+        {
+          "questionNo": 53,
+          "question": "What problem did the village face in the story?",
+          "options": [
+            {
+              "text": "A fire"
+            },
+            {
+              "text": "An earthquake"
+            },
+            {
+              "text": "A flood"
+            },
+            {
+              "text": "A dragon attack"
+            }
+          ],
+          "answer": 2,
+          "explanation": "In the story, it says, 'One day, a terrible storm came, and the river flooded the village.' This shows that the problem the village faced was a flood."
+        },
+        {
+          "questionNo": 54,
+          "question": "What should a good story have?",
+          "options": [
+            {
+              "text": "Only dialogue"
+            },
+            {
+              "text": "No characters"
+            },
+            {
+              "text": "A beginning, middle, and end"
+            },
+            {
+              "text": "Just a list of events"
+            }
+          ],
+          "answer": 2,
+          "explanation": "A good story should have a clear structure with a beginning (introducing characters and setting), a middle (where the main events and conflicts happen), and an end (where the story is resolved)."
+        },
+        {
+          "questionNo": 55,
+          "question": "Where does the story take place?",
+          "options": [
+            {
+              "text": "In a big city"
+            },
+            {
+              "text": "In a small village"
+            },
+            {
+              "text": "On a spaceship"
+            },
+            {
+              "text": "In a school"
+            }
+          ],
+          "answer": 1,
+          "explanation": "The story begins with 'Once upon a time, in a small village,' which clearly states that the setting of the story is a small village."
         }
       ]
     }

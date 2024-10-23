@@ -7,7 +7,7 @@ var previousQuestionIndex = null; // Track the previously displayed question
 var topicName = ''; // Variable to store the topic name
 const submitSound =document.getElementById("submit-sound");
 
-const uniqueKey = 2_20;
+const uniqueKey = 2_32;
 
 
 // Helper function to save data in local storage under the unique key
@@ -270,6 +270,27 @@ function loadQuestion(index) {
 
   // Update the Next button or Submit Answers button
   updateButtonText();
+  // if(randomQuestion.story){
+  //   const storyElement = document.getElementById("story-here");
+  //   storyElement.innerHTML = `<p>${randomQuestion.story}</p>`;
+  // }
+  if (randomQuestion.story) {
+   
+    const readButton = document.getElementById("readButton");
+    const storyContent = randomQuestion.story;
+  
+    
+    readButton.style.display = "block"; 
+  
+    
+    readButton.addEventListener("click", function () {
+      // Set the content of the modal
+      document.getElementById("modalContent").innerHTML = storyContent;
+  
+      // Show the modal
+      $('#storyModal').modal('show');
+    });
+  }
 }
 
 function playOptionSound(option) {

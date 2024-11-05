@@ -1140,7 +1140,7 @@
       "questions": [
         {
           "questionNo": 51,
-          "story":"Once upon a time, in a small village, there was a kind dragon named Spark. He loved helping people by bringing them fresh water from the river and guarding the village at night. Even though he was big, the children loved playing with him because he was so gentle.<br><br> One day, a terrible storm came, and the river flooded the village. He quickly flew to the mountain and brought giant rocks to block the water. The village was safe, thanks to Spark’s bravery.<br><br>The villagers cheered and thanked Spark for saving their homes. From then on, Spark became the hero of the village, loved by all.",
+          "story":"In a small, peaceful village, there was a dragon named Spark who was very kind. Spark loved helping people by bringing them fresh water from the river and guarding the village at night. Even though he was big, the children loved playing with him because he was so gentle.<br><br> One day, a terrible storm came, and the river flooded the village. Spark quickly flew to the mountain and brought giant rocks to block the water. The village was safe, thanks to Spark’s bravery.<br><br>The villagers cheered and thanked Spark for saving their homes. From then on, Spark became the hero of the village, loved by all.",
           "question": "What is the name of the friendly dragon in the story?",
           "options": [
             {
@@ -1161,23 +1161,20 @@
         },
         {
           "questionNo": 52,
-          "question": "Which of these is a good way to start a story?",
+          "question": "Which of these sentences marks the start of the story? ",
           "options": [
             {
-              "text": "The end"
+              "text": " One day, a terrible storm came "
             },
             {
-              "text": "Once upon a time"
+              "text": "Spark helped the villagers by bringing water from the river "
             },
             {
-              "text": "Goodbye"
-            },
-            {
-              "text": "The moral of the story is"
+              "text": "In a small, peaceful village, there was a dragon named Spark"
             }
           ],
-          "answer": 1,
-          "explanation": "'Once upon a time' is a classic way to start a story, especially for children's stories and fairy tales. It immediately tells the reader that a story is beginning and sets the tone for what's to come."
+          "answer": 2,
+          "explanation": "This sentence is the beginning because it introduces the place where the story happens (the small, peaceful village) and the main character (the dragon named Spark)"
         },
         {
           "questionNo": 53,

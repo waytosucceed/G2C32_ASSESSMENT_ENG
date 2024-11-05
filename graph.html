@@ -431,6 +431,19 @@ filteredTopics.forEach((topic, index) => {
   // Append each topic to the list instead of replacing it
   marksList.appendChild(li);
 });
+const totalScore = scores.reduce((acc, score) => acc + score, 0);
+const totalMaxMarks = totalMarks.reduce((acc, mark) => acc + mark, 0);
+const overallPercentage = totalMaxMarks > 0 ? (totalScore / totalMaxMarks) * 100 : 0;
+
+// Display total marks and percentage
+const totalMarksDiv = document.createElement("div");
+totalMarksDiv.innerHTML = `<h2>Total Marks: ${totalScore} / ${totalMaxMarks} (<span>${overallPercentage.toFixed(2)}%</span>)</h2>`;
+totalMarksDiv.style.margin = "20px 0";
+totalMarksDiv.style.fontWeight = "600";
+
+// Append to the breakdown section
+marksList.parentNode.insertBefore(totalMarksDiv, marksList);
+
 
 
       async function downloadReport() {

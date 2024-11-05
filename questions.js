@@ -474,14 +474,30 @@ console.log("givenAnswer", givenAnswer);
       // correctAnswer = ques.image ? "<img src='" + ques.image + "' alt='Answer Image' style='width: 50px; height: 50px;'>" : getOptionLabel(ques);
 
       var num = j + 1;
-      questionContent += "Q." + num + " " + ques + passage + "<br>" + "Correct Answer: " + correctAnswer + "<br>" + "Answer Given: " + givenAnswer + "<br><br>";
-      
+      // questionContent += "Q." + num + " " + ques + passage + "<br>" + "Correct Answer: " + correctAnswer + "<br>" + "Answer Given: " + givenAnswer + "<br><br>";
+      var givenAnswerStyle;
+      if (givenAnswer === "Not Answered") {
+        givenAnswerStyle = "color: red;"; // Not answered
+      } else if (givenAnswer === correctAnswer) {
+        givenAnswerStyle = "color: green;"; // Correct answer
+      } else {
+        givenAnswerStyle = "color: red;"; // Incorrect answer
+      }
+      // questionContent += "Q." + num + " " + ques + passage + "<br>" + "Correct Answer: " + correctAnswer + "<br>" + "Answer Given: " + givenAnswer + "<br><br>";
+      questionContent += "Q." + num + " " + ques + passage + "<br>" + 
+      "Correct Answer: " + correctAnswer + "<br>" + 
+      `<span style="${givenAnswerStyle}">Answer Given: ${givenAnswer}</span><br><br>`; // Apply style
     } else {
       // Open-ended question
       givenAnswer = givenAnswer !== null ? givenAnswer : "Not Answered";
       correctAnswer = questions[j].answer;
       var num = j + 1;
-      questionContent += "Q." + num + " " + ques + "<br><br>Answer Given: " + givenAnswer + "<br><br>";
+      // questionContent += "Q." + num + " " + ques + "<br><br>Answer Given: " + givenAnswer + "<br><br>";
+      var givenAnswerStyle = (givenAnswer === "Not Answered" || givenAnswer !== correctAnswer) ? "color: red;" : "";
+
+      questionContent += "Q." + num + " " + ques + "<br><br>" + 
+        `<span style="${givenAnswerStyle}">Answer Given: ${givenAnswer}</span><br><br>`; // Apply style
+        // questionContent += "Q." + num + " " + ques + "<br><br>Answer Given: " + givenAnswer + "<br><br>";
     }
   }
 

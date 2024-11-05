@@ -614,7 +614,7 @@ marksList.parentNode.insertBefore(totalMarksDiv, marksList);
 
 
         // Save the PDF
-        pdf.save("G2C20-Assessment-report.pdf");
+        pdf.save(`${className}-Assessment-report.pdf`);
 
         // Hide the loading overlay
         document.getElementById("loadingOverlay").style.display = "none";
